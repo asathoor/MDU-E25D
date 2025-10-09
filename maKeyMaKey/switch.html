@@ -8,10 +8,13 @@
       const tast = event.key;
 
       switch (tast) {
+        // læg mærke til at reglen kører videre fra w til W
         case "w":
         case "W":
           alert("Du trykkede på W!");
           // fjern alerten og sæt din funktion ind her.
+          // her kan du fyre animationer af 
+          // classlist add remove toggle
           break;
         default:
           console.log("Du trykkede på: " + tast);
